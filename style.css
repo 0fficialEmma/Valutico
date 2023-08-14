@@ -1,0 +1,103 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+}
+.navigationHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 108px;
+}
+.logo{
+    width: 169.846px;
+    height: 23px;
+}
+.navBar li{
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+}
+.navBar .active a{
+    color: #065666;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navBar li a{
+    color: #636363;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+} 
+
+.greenButton{
+    border-radius: 16px;
+    border-color: #6FC247;
+    background: #6FC247;
+    display: flex;
+    padding: 24px 40px;
+    align-items: flex-end;
+    gap: 16px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.whiteButton{
+    border-radius: 16px;
+    border-color: #6FC247;
+    background: #ffffff;
+    display: flex;
+    padding: 24px 40px;
+    align-items: flex-end;
+    gap: 16px;
+    color: #6FC247;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 25px;
+}
+.container{
+    padding: 80px 104px;
+}
+
+.hero-banner{
+    text-align: center;
+}
+.hero-banner h1{
+    font-size: 64px;
+    font-weight: 800px;
+    line-height: 87px;
+    letter-spacing: 0cm;
+    height: 174px;    
+}
+.hero-banner p{
+    width: 971px;
+    height: 129px;
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 43px;
+    letter-spacing: 0cm;
+}
+.hero-banner .buttons{
+    display: flex;
+    justify-content: center;
+}
